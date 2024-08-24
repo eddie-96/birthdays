@@ -13,19 +13,18 @@ This is simple Flask web application that allows users to track and store birthd
 
 ## Installation
 
-1. **Clone the repository:**
+### 1. **Clone the repository:** ###
 
 ```
-bash
 git clone https://github.com/eddie-96/birthdays.git
 cd birthdays
 ```
 
-2. **Setup virtual environment**
+### 2. **Setup virtual environment** ###
 
 ```pip install -r requirements.txt```
 
-3. **Structure database**
+### 3. **Structure database** ###
 
 ```
 CREATE TABLE birthdays (
@@ -36,7 +35,7 @@ day INTEGER NOT NULL
 );
 ```
 
-4. **Run the application**
+### 4. **Run the application** ###
 
 ``` flask run ```
 

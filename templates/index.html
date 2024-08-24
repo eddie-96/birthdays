@@ -17,15 +17,9 @@
     <body>
         {% with messages = get_flashed_messages() %}
             {% if messages %}
-                <ul>
-                    {% for message in messages %}
-                        <li>
-                            <div class="alert alert-success" role="alert" id="flash-message">
-                                {{ message }}
-                            </div>
-                        </li>
-                    {% endfor %}
-                </ul>
+                <div class="alert alert-success" role="alert" id="flash-message">
+                    {{ messages[0] }}
+                </div>
             {% endif %}
         {% endwith %}
 

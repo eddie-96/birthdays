@@ -93,10 +93,6 @@ tbody tr:nth-of-type(odd) {
     animation-play-state: paused;
 }
 
-ul {
-    list-style-type: none;
-    padding: 0;
-}
 
 @keyframes fadeOut {
     0% {
