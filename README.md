@@ -20,7 +20,7 @@ git clone https://github.com/eddie-96/birthdays.git
 cd birthdays
 ```
 
-### 2. **Setup virtual environment** ###
+### 2. **Install packages** ###
 
 ```pip install -r requirements.txt```
 
