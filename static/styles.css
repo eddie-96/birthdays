@@ -90,7 +90,7 @@ tbody tr:nth-of-type(odd) {
     animation-name: fadeOut;
     animation-duration: 2s;
     animation-fill-mode: forwards;
-    animation-play-state: paused;
+    animation-play*Setup virtual environment-state: paused;
 }
 
 
