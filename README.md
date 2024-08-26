@@ -16,7 +16,9 @@ cd birthdays
 
 ### 3. **Install packages** ###
 
-```pip install -r requirements.txt```
+```
+pip install -r requirements.txt
+```
 
 ### 4. **Structure database** ###
 
