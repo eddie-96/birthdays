@@ -33,7 +33,9 @@ day INTEGER NOT NULL
 
 ### 5. **Run the application** ###
 
-``` flask run ```
+``` 
+flask run
+```
 
 ## Usage
 
