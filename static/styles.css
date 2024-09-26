@@ -84,33 +84,4 @@ table td {
 tbody tr:nth-of-type(odd) {
     background-color: rgb(179, 208, 255, 0.3);
 }
-
-#flash-message {
-    margin: 0;
-    animation-name: fadeOut;
-    animation-duration: 2s;
-    animation-fill-mode: forwards;
-    animation-play*Setup virtual environment-state: paused;
-}
-
-
-@keyframes fadeOut {
-    0% {
-        opacity: 1;
-        height: 57px;
-        padding: 16px;
-    }
-
-    75% {
-        opacity: 0;
-        height: 57px;
-        padding: 16px;
-    }
-
-    100% {
-        opacity: 0;
-        height: 0;
-        padding: 0;
-    }
-}
-    
+   

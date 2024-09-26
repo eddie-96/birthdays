@@ -57,7 +57,7 @@ def index():
 
         # Insert into database
         db.execute("INSERT INTO birthdays (name, month, day) VALUES(?, ?, ?)", name, month, day)
-
+        
         # Notify the user with the flash message
         flash(f"{name}'s birthday is successfully added!")
 
@@ -70,5 +70,3 @@ def index():
         birthdays = db.execute("SELECT * FROM birthdays")
 
         return render_template("index.html", birthdays=birthdays)
-
-
