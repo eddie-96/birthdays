@@ -6,6 +6,6 @@ This is simple Flask web application that allows users to track and store birthd
 
 Thanks to the CS50 staffs for providing necessary logic for this project.
 
-## Note
+## About
 
 I develped this project as part of a lab for CS50x, an introduction to computer science and the art of programming.
