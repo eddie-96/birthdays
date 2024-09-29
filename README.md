@@ -8,4 +8,4 @@ Thanks to the CS50 staffs for providing necessary logic for this project.
 
 ## About
 
-I develped this project as part of a lab for CS50x, an introduction to computer science and the art of programming.
+I developed this project as part of a lab for CS50x, an introduction to computer science and the art of programming.
